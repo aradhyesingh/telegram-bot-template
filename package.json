@@ -1,0 +1,28 @@
+{
+  "name": "telebot",
+  "description": "My demo bot project",
+  "version": "0.3.0-alpha-test",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bin/startBot.js",
+    "dev": "nodemon bin/startBot.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "telegraf": "^4.16.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aradhyesingh/telebot.git"
+  },
+  "author": "Aradhye Singh <https://github.com/aradhyesingh>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aradhyesingh/telebot/issues"
+  },
+  "homepage": "https://github.com/aradhyesingh/telebot#readme",
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
